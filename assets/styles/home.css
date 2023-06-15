@@ -16,7 +16,6 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'robot' , sans-serif;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -103,6 +102,10 @@ nav .profile__link a {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
+    background-image: url('https://raw.githubusercontent.com/degranda/Platzi-blog/master/Clase%2025%20(media%20queries)/assets/img/Cover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -122,7 +125,7 @@ nav .profile__link a {
     grid-column: 2;
     justify-items: center;
     height: 35rem;
-    margin-top: 8rem;
+    margin-top: 12rem;
 }
 
 /* .home__main-title {
@@ -130,8 +133,9 @@ nav .profile__link a {
     color: var(--blanco);
 }
 */
+
 .home__main-title {
-    font-size: 3rem;
+    font-size: 7.2rem;
     font-weight: bold;
     letter-spacing: 1rem;
     color: var(--blanco);
@@ -140,7 +144,7 @@ nav .profile__link a {
 
 
 
-main section button {
+/* main section button {
     margin-top: 4rem;
     width: fit-content;
     height: 4rem;
@@ -150,21 +154,19 @@ main section button {
     padding: 0.8rem 1.2rem;
     border-radius: 0.4rem;
     font-weight: bold;
-} */
+}  */
 
-.home__main-title {
-    text-align: center;
+.home__main-container button {
+    margin-top: 4rem;
+    background-color: var(--rojo);
     color: var(--blanco);
+    border: none;
+    height: 4rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
 }
 
-main section button {
-    margin-top: 4rem;
-    width: fit-content;
-    height: 4rem;
-    background-color: var(--rojo);
+.home__main-container button a {
     color: var(--blanco);
-    border: none;
-    padding: 0.8rem 1.2rem;
-    border-radius: 0.4rem;
-    font-weight: bold;
 }
