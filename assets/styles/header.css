@@ -1,0 +1,55 @@
+header {
+    width: 100vw;
+    height: 14rem;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  
+  header .header__icons-container {
+    width: 100vw;
+    height: 5rem;
+    display: grid;
+    background-color: var(--rojo);
+  }
+  
+  header .header__icons-container .icons {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 5rem;
+  }
+  
+  header .icons a {
+    color: var(--blanco);
+    font-weight: 400;
+  }
+  
+  nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 9rem;
+  }
+  
+  nav .nav__logo-container {
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav .nav__logo-container img {
+    width: 22rem;
+  }
+  
+  nav .profile__link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5rem;
+  }
+  
+  nav .profile__link a {
+    color: var(--negro);
+    border-bottom: 1px solid var(--negro);
+  }

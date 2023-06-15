@@ -1,0 +1,40 @@
+.blog__main-container{
+    width: 85%;
+    height: auto;
+}
+
+.blog__left-ctg {
+    text-align: center;
+}
+
+.blog__main-left  {
+    width: 100%;
+}
+
+.blog__main-left figure {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.blog__main-left figure img {
+    width: 100%;
+}
+
+.blog__main-right   {
+    width: 80%;
+    margin: 0 auto;
+    padding: 3.2rem 0 0 0;
+}
+
+.blog__main-title {
+    text-align: center;
+}
+
+.blog__main-content {
+        text-align: justify;
+}
+
+.blog__main-button {
+    margin: 0 auto;
+}
+

@@ -1,0 +1,23 @@
+footer {
+    width: 100vw;
+    height: auto;
+}
+
+.footer__top {
+    height: 3.2rem;
+    background-color: red;
+}
+
+.footer__bottom {
+    background-color: var(--negro);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__bottom a {
+    font-weight: 400;
+    color: var(--blanco);
+    letter-spacing: 0.2rem;
+}

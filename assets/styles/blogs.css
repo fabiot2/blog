@@ -1,0 +1,84 @@
+main {
+    width: 100vw;
+    min-width: 40rem;
+}
+
+.blog__main {
+    background-color: #c2c2c2;
+
+}
+
+.blog__main-container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50rem;
+}
+
+.blog__main-left   {
+    width: 50%;
+}
+
+.blog__left-ctg {
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.blog__main-left figure img {
+    width: 100%;
+}
+
+.blog__main-right {
+    width: 50%;
+    padding-left: 12rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog__main-right .blog__main-title {
+    margin: 0;
+}
+
+.blog__main-right .blog__main-content {
+    margin: 2.4rem 0 3.2rem 0;
+}
+
+.blog__main-right .blog__main-button {
+    display: inline-block;
+    width: fit-content;
+    border: var(--rojo) 0.1rem solid;
+    padding: 0.8rem 1.2rem;
+}
+
+.blog__main-right .blog__main-button:hover {
+    border: var(--rojo) 0.1rem solid;
+    background-color: var(--rojo);
+    color: var(--blanco);
+}
+
+.blog__related {
+
+}
+
+.blog__post--container { 
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, 24rem);
+    gap: 2rem;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 8rem 0;
+}
+
+.blog__post-card {
+
+}
+
+.blog__post-card img {
+    width: 100%;
+}

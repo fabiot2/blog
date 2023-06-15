@@ -82,3 +82,17 @@ span {
   line-height: 1.8rem;
   letter-spacing: 0.5rem;
 }
+
+
+.global__button {
+  display: inline-block;
+  width: fit-content;
+  border: var(--rojo) 0.1rem solid;
+  padding: 0.8rem 1.2rem;
+}
+
+.global__button:hover {
+  border: var(--rojo) 0.1rem solid;
+  background-color: var(--rojo);
+  color: var(--blanco);
+}
