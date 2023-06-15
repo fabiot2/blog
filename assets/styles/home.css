@@ -88,7 +88,7 @@ nav .profile__link a {
     border-bottom: 1px solid var(--negro);
 }
 
-main {
+/* .home__main {
     width: 100vw;
     height: 100vh;
     padding-top: 20rem;
@@ -96,9 +96,18 @@ main {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+} */
+
+
+.home__main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
 }
 
-main div {
+
+
+/* .home__main-container {
     max-width: 50rem;
     height: auto;
     margin: 0 auto;
@@ -106,15 +115,49 @@ main div {
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-between;
-    
+} */
+
+.home__main-container {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 35rem;
+    margin-top: 8rem;
 }
 
-main div h1 {
+/* .home__main-title {
+    text-align: center;
+    color: var(--blanco);
+}
+*/
+.home__main-title {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 1rem;
+    color: var(--blanco);
+    text-align: center;
+}
+
+
+
+main section button {
+    margin-top: 4rem;
+    width: fit-content;
+    height: 4rem;
+    background-color: var(--rojo);
+    color: var(--blanco);
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+} */
+
+.home__main-title {
     text-align: center;
     color: var(--blanco);
 }
 
-main div button {
+main section button {
     margin-top: 4rem;
     width: fit-content;
     height: 4rem;
