@@ -25,7 +25,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+ text-decoration: none;
   color: var(--rojo);
   font-weight: bold;
 }
