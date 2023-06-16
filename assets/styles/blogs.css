@@ -4,8 +4,7 @@ main {
 }
 
 .blog__main {
-    background-color: #c2c2c2;
-
+    background-color: var(--sombra);
 }
 
 .blog__main-container {
@@ -62,17 +61,26 @@ main {
 }
 
 .blog__related {
+    min-width: 40rem;
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
 
+.blog__related h2 {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    padding-bottom: 6rem;
+    border-bottom: #c2c2c2 0.1rem solid;
 }
 
 .blog__post--container { 
     display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(auto-fill, 24rem);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    max-width: 100rem;
     margin: 0 auto;
-    padding: 8rem 0;
+    padding: 4rem 0 6rem 0;
 }
 
 .blog__post-card {

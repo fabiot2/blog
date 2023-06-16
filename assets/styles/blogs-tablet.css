@@ -31,10 +31,13 @@
 }
 
 .blog__main-content {
-        text-align: justify;
+   text-align: justify;
 }
 
 .blog__main-button {
     margin: 0 auto;
 }
 
+.blog__related {
+    padding: 0 2rem;
+}

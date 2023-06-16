@@ -11,3 +11,7 @@
 .blog__main-right  {
     width: 100%;
 }
+
+.blog__post--container {
+    max-width: 38rem;
+}
