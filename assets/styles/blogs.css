@@ -100,3 +100,8 @@ main {
     border-bottom: var(--rojo) 0.1rem solid;
     position: relative;
 }
+
+.blog__post-card:hover .blog__post-button {
+    background-color: var(--rojo);
+    color: var(--blanco);
+}
