@@ -83,10 +83,20 @@ main {
     padding: 4rem 0 6rem 0;
 }
 
-.blog__post-card {
-
-}
-
 .blog__post-card img {
     width: 100%;
+}
+
+.blog__post-info {
+    padding: 2rem;
+}
+
+.blog__post-parrafo {
+    margin: 0.8rem 0 1.2rem 0;
+    text-align: justify;
+}
+
+.blog__post-card:hover {
+    border-bottom: var(--rojo) 0.1rem solid;
+    position: relative;
 }
