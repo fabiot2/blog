@@ -20,4 +20,5 @@ footer {
     font-weight: 400;
     color: var(--blanco);
     letter-spacing: 0.2rem;
+    text-align: center;
 }

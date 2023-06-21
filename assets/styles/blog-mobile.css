@@ -1,0 +1,15 @@
+main .feature__image img {
+    max-width: 100%;
+}
+
+main .content__image img  {
+    width: 100%;
+}
+
+main .blog__ctg span {
+    display: block;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding-bottom: 4rem;
+    border-bottom: #c2c2c2 0.1rem solid;
+}

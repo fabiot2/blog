@@ -51,45 +51,6 @@ main {
     margin: 2.4rem 0 3.2rem 0;
     text-align: justify;
 } 
-/* .blog__main-container {
-    max-width: 120rem;
-    margin: 0 auto;
-    padding: 6rem 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 50rem;
-}
-
-.blog__main-left   {
-    width: 50%;
-}
-
-.blog__left-ctg {
-    width: 100%;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-}
-
-.blog__main-left figure img {
-    width: 100%;
-}
-
-.blog__main-right {
-    width: 50%;
-    padding-left: 12rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.blog__main-right .blog__main-title {
-    margin: 0;
-}
-
-.blog__main-right .blog__main-content {
-    margin: 2.4rem 0 3.2rem 0;
-} */
 
 .blog__main-info-container .blog__main-button {
     display: inline-block;
