@@ -75,6 +75,26 @@ main p {
     width: 60%;
 }
 
+.contact__container .container .contact__info-list li {
+    margin-top: 1.2rem;
+}
+
+.contact__container .container .contact__info-list li:first-child {
+    margin: 0;
+}
+
+.contact__container .container .contact__info-list li a {
+    color: var(--negro);
+}
+
+.contact__container .container .contact__info-list li a:hover {
+    color: var(--rojo);
+}
+
+.contact__container .container .contact__info-list li a:visited {
+    color: var(--negro);
+}
+
 .contact__container .container .contact__info h3 {
     margin-bottom: 2rem;
     text-decoration: underline;

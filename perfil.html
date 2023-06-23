@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Blog</title>
+    <title>Perfil Blog</title>
     <meta name="description" content="Este es un blog personal">
     <meta name="robots" content="noindex,nofollow">
     <link rel="stylesheet" href="./assets/styles/normalize.css">
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/styles/header.css">
     <link rel="stylesheet" href="./assets/styles/footer.css">
     <link rel="stylesheet" href="./assets/styles/perfil.css">
+    <link rel="stylesheet" href="./assets/styles/perfil.css" media="screen and (max-width:770px)">
 </head>
 <body>
     <header>
@@ -39,8 +40,100 @@
             </section>
         </nav>
     </header>
-    <main class="home__main">
+    <main class="profile">
+        <section class="profile__main-container">
+            <div class="grid__container profile__container">
+                <div>
+                    <img src="https://fabiotriana.com/wp-content/uploads/2022/08/Fabio-Triana-disenador-de-paginas-web-en-Colombia.png?x45623" alt="">
+                </div>
+                <div class="profile__container-info">
+                    <span>Hola! Mi nombre es Fabio Triana y soy</span>
+                    <h1>Un desarrollador Web Colombiano</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aliquam dolore quis eaque corrupti iure tempora voluptatem numquam aperiam necessitatibus.</p>
+                    <a href="#trabajos">Portafolio</a>
+                </div>
+            </div>
+        </section>
 
+        <section class="profile__main-proyects" id="trabajos">
+            <div class="grid__container">
+                
+                <h3>Mis Proyectos</h3>
+                
+                <div class="proyects__main-container">
+
+                    <article class="proyect__container">
+                        <img src="https://fabiotriana.com/wp-content/uploads/2023/04/Logo-1.png" alt="logo tienda de maquillaje en colombia cibermake">
+                        <div class="proyect__info">
+                        <h4>Cibermake.com</h4>
+                        <p>Tienda de maquillaje en Colombia con un amplio Recorrido en el mercado nacional.</p>
+                        <a href="#">Leer más</a>
+                        </div>
+                    </article>
+
+                    <article class="proyect__container">
+                        <img src="https://fabiotriana.com/wp-content/uploads/2022/09/logo-corpo.png" alt="Logo de la ruta dulce del turismo">
+                        <div class="proyect__info">
+                            <h4>Corpoturisvalle.com</h4>
+                            <p>Agencia de Turismo de naturaleza que busca promover el turismo en el valle del cauca, Colombia.</p>
+                            <a href="#">Leer más</a>
+                        </div>
+                    </article>
+
+                    <article class="proyect__container">
+                        <img src="https://fabiotriana.com/wp-content/uploads/2022/09/logo-miguia.co_.png" alt="">
+                        <div class="proyect__info">
+                            <h4>miGUIA.CO</h4>
+                            <p>App directorio Web que permite hacer pedidos online y solicitar reservas</p>
+                            <a href="#">Leer más</a>
+                        </div>
+                    </article>
+
+                </div>
+
+                </div>
+
+            </div>
+        </section>
     </main>
+
+    <section class="contact__container">
+        <div class="containers">
+
+            <div class="container container__left">
+         
+                <figure>
+                    <img src="https://fabiotriana.com/wp-content/uploads/2022/08/posicionamiento-seo-en-colombia.png?x45623" alt="escribenos un mensaje">
+                </figure>
+                <div class="contact__info">
+                    <h3>Contacto</h3>
+                    <ul class="contact__info-list">
+                        <li>
+                            <a href="tel:+573013105728">+ 57 301 310 5748</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=573013105748text=Hola%20Fabio%20Triana%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20c%C3%B3mo%20hacer%20mi%20negocio%20m%C3%A1s%20visible%20en%20internet.">+ 57 301 310 5748</a>
+                        </li>
+                    </ul>
+                </div>
+    
+            </div>
+        
+            <div class="container container__right">
+             
+                <figure>
+                    <img src="https://fabiotriana.com/wp-content/uploads/2022/08/soporte-wordpress-colombia.png?x45623" alt="icono de soporte tecnico de wordpress">
+                </figure>
+                <div class="contact__info">
+                    <h3>Escribe</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, incidunt.</span>
+                </div>
+    
+            </div>
+
+        </div>    
+    
+    </section>
+
 </body>
 </html>
